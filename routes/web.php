@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $comicsArray = config("mioDb");
-
+    
     // dump($comicsArray);
     return view('home', [
         "comicsArray" => $comicsArray

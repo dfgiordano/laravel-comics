@@ -1,5 +1,4 @@
 header {
-    height: 150px;
         .section_h_1 {
             height: 20px;
             background-color: $hoverColor;
@@ -29,7 +28,9 @@ header {
                 }
         }
         .jumbotron {
+            display: block;
             background-image: url('../../../public/images/jumbotron.jpg');
             height: 450px;
         }
+        
 }

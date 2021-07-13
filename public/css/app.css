@@ -13,10 +13,6 @@ a {
   text-decoration: none;
 }
 
-header {
-  height: 150px;
-}
-
 header .section_h_1 {
   height: 20px;
   background-color: #2482F9;
@@ -53,7 +49,40 @@ header .section_h_2 img {
 }
 
 header .jumbotron {
+  display: block;
   background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
   height: 450px;
 }
 
+main {
+  display: flex;
+  background-color: #1C1C1C;
+  padding-top: 50px;
+  color: #AEAEAF;
+}
+main img {
+  height: 200px;
+  width: 200px;
+}
+
+main h3 {
+  font-size: 12px;
+  max-width: 200px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #AEAEAF;
+}
+main .container:clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  float: left;
+  height: 200px;
+  width: calc(100% / 6 - 60px);
+  margin: 30px;
+}
